@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Madhumathi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo"></div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle-btn" class="theme-toggle-btn" title="Toggle Theme">⏾</button>
+    </div>
+  </nav>
+
+  <header class="hero-section" id="home">
+    <div class="container home-content" data-aos="fade-up">
+      <h1>Hello, I'm <span class="highlight">Madhumathi</span></h1>
+      <h2 class="typed-text"></h2>
+      <p class="hero-description">I design, build, and innovate with code — blending engineering principles with creativity to develop real-world tech solutions.</p>
+      <a href="Madhumathi Resume (1).pdf" download class="resume-button">📄 Download Resume</a>
+    </div>
+  </header>
+
+  <section id="about" class="section alt-bg">
+    <div class="container about-container" data-aos="fade-up">
+      <div class="profile-image"></div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I'm an Electronics and Communication Engineering student with a passion for building impactful tech solutions. With a strong foundation in programming and system design, I enjoy exploring how software and hardware can work together to solve real-world problems. Over the past few years, I’ve developed projects ranging from IoT-based systems to web applications, gaining hands-on experience with technologies like Java, MySQL, HTML, CSS, and Arduino. These experiences have helped me grow as a problem solver and a builder. I’m a quick learner with a keen eye for clean structure and functionality. I truly value teamwork, adaptability, and continuous learning and I'm eager to apply my skills in meaningful ways that contribute to innovative engineering and technology.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="card-grid">
+        <div class="card">Java</div>
+        <div class="card">C</div>
+        <div class="card">MySQL</div>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">Matlab</div>
+        <div class="card">Problem Solving</div>
+        <div class="card">Team Collaboration</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt-bg">
+    <div class="container" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="projects-scroll">
+        <div class="project-card">
+          <h3>Natyalaya – Dance Academy Manager</h3>
+          <p>
+            A console-based Java app for managing academy operations like fees, attendance, and exams. Uses MySQL for storage and provides a structured admin/student interface.
+          </p>
+          <p><strong>Tech:</strong> Java, MySQL, Console UI</p>
+        </div>
+        <div class="project-card">
+          <h3>BookMate – Reader’s Book Recommender</h3>
+          <p>
+            A frontend app recommending books based on genres. Uses dynamic JavaScript, responsive UI, and modern design to enhance the reader's experience.
+          </p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project-card">
+          <h3>Cloud-Based Industrial Predictive Maintenance</h3>
+          <p>
+            Collects machine data (vibration, temperature) using sensors and sends it to the cloud for predictive fault detection. Helps reduce industrial downtime. A core ECE IoT solution.
+          </p>
+          <p><strong>Tech:</strong> Embedded Systems, Sensors, Cloud</p>
+        </div>
+  
+        <div class="project-card">
+          <h3>Smart Irrigation System using Blynk App</h3>
+          <p>
+            This project automates irrigation using real-time soil moisture data. It integrates with the Blynk app for live monitoring and remote control, improving water efficiency. Built using Arduino and cost-effective sensors, it supports sustainable agriculture.
+          </p>
+          <p><strong>Patent:</strong> 202441045217</p>
+          <p><strong>Tech:</strong> Arduino, Blynk IoT, Soil Sensor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="container" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>B.E – Electronics and Communication Engineering</h3>
+          <p>Sri Shakthi Institute of Engineering and Technology</p>
+          <p>2022 – 2026 | CGPA: 9.00</p>
+        </div>
+        <div class="card">
+          <h3>HSC</h3>
+          <p>St. Joseph’s Matric. Hr. Sec. School</p>
+          <p>2021 – 2022 | 87.8%</p>
+        </div>
+        <div class="card">
+          <h3>SSLC</h3>
+          <p>St. Joseph’s Matric. Hr. Sec. School</p>
+          <p>2019 – 2020 | 86.6%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt-bg">
+    <div class="container" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Madhumathi. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://github.com/madhumathianand" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="www.linkedin.com/in/madhumathi-a-480b20276" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:madhumathi.anandkumar@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+
+    const toggleBtn = document.getElementById("theme-toggle-btn");
+    const html = document.documentElement;
+    let darkMode = false;
+    toggleBtn.addEventListener("click", () => {
+      darkMode = !darkMode;
+      html.setAttribute("data-theme", darkMode ? "dark" : "light");
+      toggleBtn.textContent = darkMode ? "☀︎" : "⏾";
+    });
+
+    new Typed(".typed-text", {
+      strings: ["Web Developer", "Tech Explorer", "Problem Solver"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      backDelay: 2000,
+      loop: true
+    });
+
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-links a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${current}`) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
